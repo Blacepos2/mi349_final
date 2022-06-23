@@ -1,0 +1,2 @@
+font: kumbh sans
+highlight color = 0x5b0000
