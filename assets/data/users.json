@@ -2,15 +2,15 @@
 	{
 		"name": "Ghastlie",
 		"id": "ghastlie",
-		"image": "assets/images/users/ghastlie.png",
-		"preview": "assets/sounds/users/ghastlie.ogg",
+		"image": "assets/images/users/profile1.jpg",
+		"preview": "assets/sounds/users/cursed_nightcore.ogg",
 		"tags": ["tag2", "tag3"]
 	},
 	{
 		"name": "Ghastlie2",
 		"id": "ghastlie2",
-		"image": "assets/images/users/ghastlie.png",
-		"preview": "assets/sounds/users/ghastlie.ogg",
+		"image": "assets/images/users/profile2.jpg",
+		"preview": "assets/sounds/users/nneevveerrggoonnaaggiivveeyyoouuuupp.ogg",
 		"tags": ["tag1", "tag3"]
 	}
 ]

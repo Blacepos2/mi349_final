@@ -3,19 +3,25 @@
 	src: url('assets/fonts/KumbhSans-Regular.ttf');
 }
 
+html,body {
+	height: 100%;
+}
+
 body {
 	padding: 0;
 	margin: 0;
 	font-family: "Kumbh Sans";
 	font-size: 20px;
+	background-color: #fcfcfd;
 }
 
 ul {
 	list-style-type: none;
+	padding: 0;
 }
 
 header {
-	position: sticky;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	height: 62px;
@@ -66,24 +72,26 @@ header .logo img {
 
 .searchbar {
 	margin: 0;
-	padding: 0;
-	height: 42px;
 	width: 33%;
-	border: 1px solid black;
-	border-style: inset;
 }
 .searchbar * {
 	position: relative;
 	top: 0px;
-	size: 42px 42px;
+	size: 42px;
 	margin: 0;
 	border: unset;
+}
+input[type="search"] {
+	border: unset;
 	font-family: unset;
+	border: 1px solid black;
+	border-style: inset;
+	height: 42px;
 	font-size: 20px;
 }
 
 input {
-	padding: 0 4px;
+	padding: 0 8px;
 	width: 100%;
 	background-color: #f5f5f5;
 }
@@ -116,7 +124,108 @@ a {
 	margin: 50px 0;
 }
 .button-link {
+	border: none;
+	font: unset;
 	color: white;
 	background-color: #5b0000;
-	padding: 12px 20px;
+	padding: 12px 26px;
+}
+
+.main-sidebar {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	height: 100%;
+	text-align: center;
+}
+#sidebar {
+	padding-top: 10px;
+	background-color: #efefef;
+	height: 100%;
+	width: 270px;
+	font-size: 16px;
+}
+#sidebar form > * {
+	margin: 12px 0;
+}
+#filters {
+	width: 210px;
+	margin: 0 auto;
+}
+.tag-list {
+	display: flex;
+	align-content: flex-start;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 95%;
+	font-size: 16px;
+}
+.tag {
+	background-color: #5b0000;
+	color: white;
+	font-size: 14;
+	padding: 2px 6px;
+	margin: 2px 1px;
+	border-radius: 12px;
+}
+
+#main-section {
+	padding-top: 50px;
+}
+
+#user-cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+.card {
+	display: grid;
+	grid-template-columns: 140px 1fr;
+	grid-template-rows: 162px 1fr;
+	width: 333px;
+	height: 448px;
+	background: #FFFFFF;
+	border: 1px solid #EEEEEE;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 18px;
+	margin: 28px;
+}
+.card * {
+	font-weight: unset;
+}
+.card button {
+	border: unset;
+	background-color: #fff0;
+}
+.profile-picture {
+	position: relative;
+	width: 118px;
+	height: 118px;
+	grid-column: 1;
+	grid-row: 1;
+	top: 22px;
+	left: 22px;
+
+	background: #5B0000;
+	border-radius: 11px;
+}
+.profile-name {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	grid-column: 2;
+	grid-row: 1;
+	align-self: center;
+}
+.profile-extra {
+	grid-row: 2;
+	grid-column: 1/3;
+	justify-self: center;
+	align-self: top;
+}
+.profile-extra h4 {
+	margin: 25px 0;
+	padding: 0;
+}
+.play-button, .play-button img {
+	width: 54px;
+	height: 54px;
 }

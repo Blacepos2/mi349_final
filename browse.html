@@ -19,12 +19,34 @@
 				<li><a href="browse.html">Browse</a></li>
 				<li><a href="about.html">About</a></li>
 			</ul>
-			<div class="searchbar">
-				<button id="search"><img src="assets/images/magnifying-glass.png" alt="Magnifying Glass"></button>
-				<input type="text" id="searchbar">
-			</div>
+			<form action="browse.html" method="get" class="searchbar">
+				<button type="submit" id="search"><img src="assets/images/magnifying-glass.png" alt="Magnifying Glass"></button>
+				<input placeholder="Find Music Producers" name="tags" type="search" id="searchbar">
+			</form>
 		</nav>
 	</header>
+
+	<main class="main-sidebar">
+		<section id="sidebar">
+			<h2>Filters</h2>
+			<form action="browse.html" id="filters" method="get">
+				<input id="tag-bar" placeholder="Enter Tags" type="search" name="tags">
+				<button type="submit" class="button-link">Apply</button>
+			</form>
+			<h3>Current Tags:</h3>
+			<ul class="tag-list" id="current-tags">
+
+			</ul>
+		</section>
+	
+		<section id="main-section">
+			<h2>Find The Right Music Producer For Your Project</h2>
+			<ul id="user-cards">
+				
+			</ul>
+		</section>
+	</main>
+
 	<script src="make-cards.js"></script>
 </body>
 </html>
