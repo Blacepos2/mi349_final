@@ -79,10 +79,8 @@ header .logo img {
 	top: 0px;
 	size: 42px;
 	margin: 0;
-	border: unset;
 }
-input[type="search"] {
-	border: unset;
+input {
 	font-family: unset;
 	border: 1px solid black;
 	border-style: inset;
@@ -101,6 +99,7 @@ input:focus {
 button {
 	cursor: pointer;
 	padding: 0;
+	border: unset;
 }
 
 h1 {
@@ -220,6 +219,7 @@ a {
 	grid-column: 1/3;
 	justify-self: center;
 	align-self: top;
+	padding: 0 20px;
 }
 .profile-extra h4 {
 	margin: 25px 0;
@@ -228,4 +228,94 @@ a {
 .play-button, .play-button img {
 	width: 54px;
 	height: 54px;
+}
+
+.main-split {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 100%;
+	text-align: center;
+	justify-content: center;
+}
+
+.main-split > * {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+#left-split {
+	color: white;
+	background-image: linear-gradient(#5B0000, #A72727);
+}
+
+#signup-advert {
+	margin: 0 153px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 200%;
+
+	letter-spacing: 0.05em;
+
+	text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+#right-split {
+	display: grid;
+}
+
+#sign-up-box {
+	width: 538px;
+	height: 626px;
+	background-color: #E7E7E7;
+	border: 1px solid #000000;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#sign-up-form {
+	text-align: left;
+	margin: 0 73px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+#sign-up-form input {
+	margin: 0;
+	padding: 0 8px;
+	width: 380px;
+	border: 1px solid black;
+	border-style: inset;
+	height: 42px;
+}
+
+.sign-up-field {
+	width: 392px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	margin-top: 10px;
+}
+
+.sign-up-field:last-child {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	margin-top: 20px
+}
+
+.sign-up-field:last-child > *:first-child {
+	justify-self: left;
+	height: 42px;
+	width: 157px;
+	display: grid;
+	align-items: center;
+	padding: 0;
+}
+
+.sign-up-field:last-child > *:last-child {
+	justify-self: right;
+	margin: 0;
+	padding: 0;
 }

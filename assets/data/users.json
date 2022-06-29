@@ -4,13 +4,55 @@
 		"id": "ghastlie",
 		"image": "assets/images/users/profile1.jpg",
 		"preview": "assets/sounds/users/cursed_nightcore.ogg",
-		"tags": ["tag2", "tag3"]
+		"tags": ["nightcore", "literally_unable_to_recover"]
 	},
 	{
-		"name": "Ghastlie2",
-		"id": "ghastlie2",
+		"name": "Trippy Ricky",
+		"id": "trippy-ricky",
 		"image": "assets/images/users/profile2.jpg",
 		"preview": "assets/sounds/users/nneevveerrggoonnaaggiivveeyyoouuuupp.ogg",
-		"tags": ["tag1", "tag3"]
+		"tags": ["misc", "literally_unable_to_recover"]
+	},
+	{
+		"name": "Labs is Cool",
+		"id": "labs-is-cool",
+		"image": "assets/images/users/userprofile.jpg",
+		"preview": "assets/sounds/users/desert_of_time-prev.ogg",
+		"tags": ["atmosphere", "video_game"]
+	},
+	{
+		"name": "Bvker",
+		"id": "bvker",
+		"image": "assets/images/users/profile4.jpg",
+		"preview": "assets/sounds/users/synthwave-test-prev.ogg",
+		"tags": ["synthwave"]
+	},
+	{
+		"name": "Ketchup",
+		"id": "ketchup",
+		"image": "assets/images/users/fries.jpg",
+		"preview": "assets/sounds/users/man.ogg",
+		"tags": ["ketchup", "condiment"]
+	},
+	{
+		"name": "Steev",
+		"id": "steev",
+		"image": "assets/images/users/profile6.jpg",
+		"preview": "assets/sounds/users/so_its_decided-prev.ogg",
+		"tags": ["video_game"]
+	},
+	{
+		"name": "This Guy",
+		"id": "this-guy",
+		"image": "assets/images/users/userprofile.jpg",
+		"preview": "assets/sounds/users/Song32-prev.ogg",
+		"tags": ["ketchup", "video_game"]
+	},
+	{
+		"name": "Get This Man Out Of Here",
+		"id": "ketchup2",
+		"image": "assets/images/users/userprofile.jpg",
+		"preview": "assets/sounds/users/b2-prev.ogg",
+		"tags": ["ketchup", "video_game"]
 	}
 ]

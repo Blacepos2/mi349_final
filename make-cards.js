@@ -72,19 +72,26 @@ async function setupCards(tags) {
 
 	users.forEach(user => {
 		const button = document.getElementById(`${user.id}-sample`);
+		const sound = document.getElementById(`${user.id}-audio`);
+		const playbutton = document.getElementById(`${user.id}-playbutton`);
 
 		button.addEventListener('click', () => {
-			const sound = document.getElementById(`${user.id}-audio`);
-			const playbutton = document.getElementById(`${user.id}-playbutton`);
-
 			if (sound.currentTime > 0.1) {
 				sound.pause();
-				sound.currentTime = 0;
-				playbutton.src = "assets/images/play.png";
 			} else {
 				sound.play();
-				playbutton.src = "assets/images/pause.png";
 			}
+		});
+
+		sound.addEventListener('pause', () => {
+			console.log("hellooooo");
+			sound.currentTime = 0;
+			playbutton.src = "assets/images/play.png";
+		});
+
+		sound.addEventListener('play', () => {
+			console.log("hellooooo2 :)))");
+			playbutton.src = "assets/images/pause.png";
 		});
 	});
 }
