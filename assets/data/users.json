@@ -4,18 +4,18 @@
 		"id": "ghastlie",
 		"image": "assets/images/users/profile1.jpg",
 		"preview": "assets/sounds/users/cursed_nightcore.ogg",
-		"tags": ["nightcore", "literally_unable_to_recover"]
+		"tags": ["nightcore", "humor"]
 	},
 	{
 		"name": "Trippy Ricky",
 		"id": "trippy-ricky",
 		"image": "assets/images/users/profile2.jpg",
 		"preview": "assets/sounds/users/nneevveerrggoonnaaggiivveeyyoouuuupp.ogg",
-		"tags": ["misc", "literally_unable_to_recover"]
+		"tags": ["misc", "humor"]
 	},
 	{
-		"name": "Labs is Cool",
-		"id": "labs-is-cool",
+		"name": "Labs Base",
+		"id": "labs-base",
 		"image": "assets/images/users/userprofile.jpg",
 		"preview": "assets/sounds/users/desert_of_time-prev.ogg",
 		"tags": ["atmosphere", "video_game"]
@@ -46,13 +46,13 @@
 		"id": "this-guy",
 		"image": "assets/images/users/userprofile.jpg",
 		"preview": "assets/sounds/users/Song32-prev.ogg",
-		"tags": ["ketchup", "video_game"]
+		"tags": ["video_game"]
 	},
 	{
-		"name": "Get This Man Out Of Here",
-		"id": "ketchup2",
+		"name": "Gabbro",
+		"id": "gabbro",
 		"image": "assets/images/users/userprofile.jpg",
 		"preview": "assets/sounds/users/b2-prev.ogg",
-		"tags": ["ketchup", "video_game"]
+		"tags": ["video_game"]
 	}
 ]

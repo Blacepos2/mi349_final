@@ -84,13 +84,11 @@ async function setupCards(tags) {
 		});
 
 		sound.addEventListener('pause', () => {
-			console.log("hellooooo");
 			sound.currentTime = 0;
 			playbutton.src = "assets/images/play.png";
 		});
 
 		sound.addEventListener('play', () => {
-			console.log("hellooooo2 :)))");
 			playbutton.src = "assets/images/pause.png";
 		});
 	});
