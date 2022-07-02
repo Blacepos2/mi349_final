@@ -4,14 +4,14 @@
 		"id": "ghastlie",
 		"image": "assets/images/users/profile1.jpg",
 		"preview": "assets/sounds/users/cursed_nightcore.ogg",
-		"tags": ["nightcore", "humor"]
+		"tags": ["nightcore", "not_a_rickroll"]
 	},
 	{
 		"name": "Trippy Ricky",
 		"id": "trippy-ricky",
 		"image": "assets/images/users/profile2.jpg",
 		"preview": "assets/sounds/users/nneevveerrggoonnaaggiivveeyyoouuuupp.ogg",
-		"tags": ["misc", "humor"]
+		"tags": ["misc", "not_a_rickroll"]
 	},
 	{
 		"name": "Labs Base",
